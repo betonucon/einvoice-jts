@@ -104,7 +104,7 @@
 			color: yellow;
 		}
 		.header.navbar-inverse {
-			background: #150f34;
+			background: #0a151e;
 		}
 		.modal-lg{
 			max-width:80%;
@@ -194,7 +194,7 @@
 		<!-- end #header -->
 		
 		<!-- begin #sidebar -->
-		<div id="sidebar" class="sidebar" style="background: #190e44c2;">
+		<div id="sidebar" class="sidebar" style="background: #0a151e;">
 			<!-- begin sidebar scrollbar -->
 			<div data-scrollbar="true" data-height="100%">
 				<!-- begin sidebar user -->

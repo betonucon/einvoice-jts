@@ -134,20 +134,20 @@
             @endfor
         ],
         datasets: [{
-            label: 'Dataset 1',
+            label: 'Pemasukan',
             borderWidth: 2,
-            borderColor: COLOR_INDIGO,
-            backgroundColor: COLOR_INDIGO_TRANSPARENT_3,
+            borderColor: "white",
+            backgroundColor: "blue",
             data: [
                 @for($x=1;$x<13;$x++)
-                    {{dasbor_tagihan(ubah_bulan($x),$tahun)}},
+                    {{dasbor_invoice(ubah_bulan($x),$tahun)}},
                 @endfor
             ]
         }, {
             label: 'Pengluaran',
             borderWidth: 2,
-            borderColor: COLOR_DARK,
-            backgroundColor: COLOR_DARK_TRANSPARENT_3,
+            borderColor: "white",
+            backgroundColor: "red",
             data: [
                 @for($x=1;$x<13;$x++)
                     {{dasbor_tagihan(ubah_bulan($x),$tahun)}},
